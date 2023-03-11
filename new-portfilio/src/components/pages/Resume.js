@@ -5,7 +5,7 @@ export default function Resume() {
     return (
         <div>
             <h2>Resume</h2>
-            <p>Download my resume here: <a href={resumeDoc} download="vargasdm-resume"></a></p>
+            <p>Download my resume here: <a href={resumeDoc} download="vargasdm-resume">Resume</a></p>
             <ul class="vertical menu">
                 <p>Front-End Proficiencies</p>
                 <li>HTML</li>
