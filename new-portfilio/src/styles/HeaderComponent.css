@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo+Play&family=Noto+Sans+Sinhala&family=Poor+Story&family=Sono&display=swap');
 
+h1 {
+    font-family: 'Sono';
+    color: #fff;
+    display: flex;
+    justify-content: left;
+}
+
 .nav {
     background: #3d2c2e;
     height: 80px;
@@ -21,6 +28,7 @@
     cursor: pointer;
 }
 
-.About {
-    font-family: 'Sono';
+a:hover {
+    color: #fff;
+    transform: scale(1.05);
 }
