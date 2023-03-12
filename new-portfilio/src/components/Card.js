@@ -15,7 +15,7 @@ export default function Card(props) {
                     <div key={project.id}>
                         <img
                             className="card-img-top"
-                            src={project.screenshot}
+                            src={require(`../assets/images/${project.screenshot}.jpg`)}
                             alt="Project screenshot"
                         />
                         <div className="card-body">

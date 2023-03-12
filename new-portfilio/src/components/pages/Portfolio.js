@@ -5,35 +5,35 @@ const projects = [
   {
     id: 1,
     name: 'In-or-Out',
-    screenshot:'../../assets/images/in-or-out.jpg',
+    screenshot:'in-or-out',
     deployed: 'https://vargasdm.github.io/In-or-Out/',
     repo: 'https://github.com/vargasdm/In-or-Out',
   },
-  {
-    id: 2,
-    name: 'Portfolio',
-    screenshot: '#',
-    deployed: '#',
-    repo: 'https://github.com/vargasdm/New-Portfolio',
-  },
+  // {
+  //   id: 2,
+  //   name: 'Portfolio',
+  //   screenshot: '#',
+  //   deployed: '#',
+  //   repo: 'https://github.com/vargasdm/New-Portfolio',
+  // },
   {
     id: 3,
     name: 'Text Editor',
-    screenshot:'../../assets/images/jate.jpg',
+    screenshot:'jate',
     deployed: 'https://jatechallenge.herokuapp.com/',
     repo: 'https://github.com/vargasdm/Text-Editor',
   },
   {
     id: 4,
     name: 'Tech Blog',
-    screenshot:'../../assets/images/tech-blog.jpg',
+    screenshot:'tech-blog',
     deployed: 'https://guarded-forest-85262.herokuapp.com/',
     repo: 'https://github.com/vargasdm/Tech-Blog',
   },
   {
     id: 5,
     name: 'Employee Tracker',
-    screenshot:'../../assets/images/employee-tracker.jpg',
+    screenshot:'employee-tracker',
     // this app doesn't have a front-end deployed app
     deployed: 'https://github.com/vargasdm/Employee-Tracker',
     repo: 'https://github.com/vargasdm/Employee-Tracker',
@@ -41,7 +41,7 @@ const projects = [
   {
     id: 6,
     name: 'E-commerce Backend',
-    screenshot:'../../assets/images/e-commerce-backend.jpg',
+    screenshot:'e-commerce-backend',
     // this app doesn't have a front-end deployed app
     deployed: 'https://github.com/vargasdm/E-commerce-Back-End',
     repo: 'https://github.com/vargasdm/E-commerce-Back-End',
