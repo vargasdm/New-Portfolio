@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/Header.css';
 import Resume from '../assets/documents/Vargas-General-Resume.pdf'
 // Here we are using object destructuring assignment to pluck off our variables from the props object
