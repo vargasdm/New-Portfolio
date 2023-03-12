@@ -6,7 +6,7 @@ export default function Resume() {
         <div>
             <h2>Resume</h2>
             <p>Download my resume here: <a href={resumeDoc} download="vargasdm-resume">Resume</a></p>
-            <ul class="vertical menu">
+            <ul className="vertical menu">
                 <p>Front-End Proficiencies</p>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -16,7 +16,7 @@ export default function Resume() {
                 <li>React</li>
                 <li>Bootstrap</li>
             </ul>
-            <ul class="vertical menu">
+            <ul className="vertical menu">
                 <p>Back-End Proficiencies</p>
                 <li>APIs</li>
                 <li>Node</li>
