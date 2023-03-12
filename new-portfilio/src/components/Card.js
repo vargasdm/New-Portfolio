@@ -1,4 +1,6 @@
 import React from 'react';
+import { FaGithub, FaBoxOpen } from "react-icons/fa";
+
 
 export default function Card(props) {
     const cardStyle = {
@@ -14,23 +16,19 @@ export default function Card(props) {
     return (
         <div className="container">
             <p>i am working</p>
-            <div className="card" style={cardStyle}>
-                {props.projects.map(projects => (
+            <div className="card" style={cardStyle} >
+                {props.projects.map(project => (
 
-                    <div>
+                    <div key={project.id}>
                         <img
                             className="card-img-top"
-                            src={props.project.screenshot}
+                            src={project.screenshot}
                             alt="Project screenshot"
-                            key={projects.id}
                         />
                         <div className="card-body">
-                            <h5 className="card-title">Name: {props.project.name}</h5>
-                            <p className="card-text">App: {props.project.deployed}</p>
-                            <p className="card-text">GitHub repo: {props.project.repo}</p>
-                            <a href="#" className="btn btn-primary">
-                                Adopt {props.name}
-                            </a>
+                            <h5 className="card-title">{project.name}</h5>
+                            <p>Deployed App: <a href={project.deployed} className="card-text"> <FaBoxOpen /></a> </p>
+                            <p>GitHub repo: <a href={project.repo} className="card-text"> <FaGithub /></a></p>
                         </div>
                     </div>
                 ))}

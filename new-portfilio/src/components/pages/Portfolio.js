@@ -5,7 +5,7 @@ const projects = [
   {
     id: 1,
     name: 'In-or-Out',
-    screenshot:'../assets/images/in-or-out.jpg',
+    screenshot:'../../assets/images/in-or-out.jpg',
     deployed: 'https://vargasdm.github.io/In-or-Out/',
     repo: 'https://github.com/vargasdm/In-or-Out',
   },
@@ -54,7 +54,7 @@ export default function Portfolio() {
     <div>
       <h2>Portfolio</h2>
       <div>
-        <Card id={projects.id} name={projects.name} screenshot={projects.screenshot} deployed={projects.deployed} repo={projects.repo} />
+        <Card projects={projects}/>
       </div>
     </div>
   );
