@@ -17,7 +17,7 @@ h1 {
 }
 
 .nav-link {
-    color: #fff;
+    color: #fff !important;
     font-family: 'Sono';
     font-size: 25%;
     display: flex;
@@ -29,6 +29,6 @@ h1 {
 }
 
 a:hover {
-    color: #fff;
+    color: #d1ccdc !important;
     transform: scale(1.05);
 }
