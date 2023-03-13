@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaStackOverflow, FaRegEnvelope } from "react-icon
 
 export default function Footer() {
     return (
-        <ul class="vertical menu">
+        <ul className="vertical menu">
             <li><FaRegEnvelope /><a href="mailto:vargasdm21@gmail.com" target="_blank"> Email</a></li>
             <li><FaGithub /><a href="https://github.com/vargasdm" target="_blank"> Github</a></li>
             <li><FaLinkedin /><a href="https://www.linkedin.com/in/daniel-vargas-509a3a25b/" target="_blank"> LinkedIn</a></li>
