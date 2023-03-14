@@ -16,17 +16,20 @@ p {
 
 
 h2 {
+    flex-direction: column;
     font-weight: bolder;
     color: #f5edf0;
 }
 
 
-img {
+.profile-pic {
     display: flex;
     height: auto; 
     width: auto; 
-    max-width: 300px; 
-    max-height: 300px;
+    max-width: 400px; 
+    max-height: 400px;
+    border-radius: 25px;
+    border: thick double #f5edf0 ;
 }
 
 .highlighted-link {
@@ -39,5 +42,11 @@ img {
 
 .bio {
     display: flex;
-    width: 50%;
+    width: 75%;
 }
+
+.about-me-content-container {
+    display: flex;
+    justify-content: space-between;
+}
+
