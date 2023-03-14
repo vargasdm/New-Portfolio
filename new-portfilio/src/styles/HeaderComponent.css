@@ -2,7 +2,7 @@
 
 h1 {
     font-family: 'Sono';
-    color: #fff;
+    color: #f5edf0;
     display: flex;
     justify-content: left;
 }
@@ -17,7 +17,7 @@ h1 {
 }
 
 .nav-link {
-    color: #fff !important;
+    color: #f5edf0 !important;
     font-family: 'Sono';
     font-size: 25%;
     display: flex;

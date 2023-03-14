@@ -1,31 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play&family=Noto+Sans+Sinhala&family=Poor+Story&family=Sono&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Sono';
+    background-color: #3d2c2e;
 }
 
-body {
-    margin: 0;
-    background-color: #567189;
-}
-
-/* Nav menu link styling */
-a {
-    text-decoration: none;
-    color: black;
-    transition: all 0.4s ease 0s;
+p {
+    font-family: 'Sono';
     font-weight: bolder;
+    color: #f5edf0;
 }
 
-/* Changes color of nav menu links when hovering over them */
-a:hover {
-    color: #4f89b8;
-    transform: scale(1.05);
-}
 
-h1, h2, h3, h4 {
+h2 {
     font-weight: bolder;
+    color: #f5edf0;
 }
 
 
@@ -35,4 +27,17 @@ img {
     width: auto; 
     max-width: 300px; 
     max-height: 300px;
+}
+
+.highlighted-link {
+    color: black !important;
+}
+
+.content-container {
+    background-color: #3d2c2e ;
+}
+
+.bio {
+    display: flex;
+    width: 50%;
 }

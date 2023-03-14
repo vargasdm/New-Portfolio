@@ -1,5 +1,5 @@
 import './App.css';
-import NewPortfolio from './components/ContentContainer';
+import ContentContainer from './components/ContentContainer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import { Fragment } from 'react';
@@ -14,33 +14,11 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <Fragment>
-      <Header />
 
-      <div className="new-portfolio-app">
-        <BrowserRouter>
-          <Routes>
-
-            <Route path='/' element={<NewPortfolio />} />
-            <Route path='/about' element={<About/>}/>
-            <Route path='/portfolio' element={<Portfolio/>}/>
-            <Route path='/contact' element={<Contact/>}/>
-            <Route path='/resume' element={<Resume/>}/>
-            
-
-          </Routes>
-
-        </BrowserRouter>
-
-
-      </div>
+    <div className="new-portfolio-app">
+      <ContentContainer />
       <Footer />
-    </Fragment>
-
-
-
-
-
+    </div>
 
   );
 }
