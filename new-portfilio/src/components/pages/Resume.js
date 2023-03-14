@@ -5,8 +5,9 @@ export default function Resume() {
     return (
         <div>
             <h2>Resume</h2>
-            <p>Download my resume here: <a href={resumeDoc} download="vargasdm-resume">Resume</a></p>
-            <ul className="vertical menu">
+            <p>Click to download my resume here: <a href={resumeDoc} download="vargasdm-resume">!!Resume!!</a></p>
+            <div className='proficiencies'>
+            <ul className="vertical menu ">
                 <p>Front-End Proficiencies</p>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -25,6 +26,7 @@ export default function Resume() {
                 <li>MongoDB, Mongoose</li>
                 <li>GraphQL</li>
             </ul>
+            </div>
         </div>
     );
 }

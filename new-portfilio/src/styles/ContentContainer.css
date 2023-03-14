@@ -42,11 +42,19 @@ h2 {
 
 .bio {
     display: flex;
-    width: 75%;
+    width: 80%;
 }
 
 .about-me-content-container {
     display: flex;
     justify-content: space-between;
+}
+
+.proficiencies ul::before  {
+    color: #f5edf0 !important;
+}
+
+.proficiencies ul {
+    color: #f5edf0 !important;
 }
 
