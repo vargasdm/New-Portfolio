@@ -76,33 +76,38 @@ export default function Contact() {
   return (
     <div>
       <h1>Contact Me</h1>
-      <form className="form">
-        <input
-          value={name}
-          name="name"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="name"
-          onBlur={handleLoseFocusName}
-        />
-        <input
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          type="email"
-          placeholder="email"
-          onBlur={handleLoseFocusEmail}
-        />
-        <input
-          value={message}
-          name="message"
-          onChange={handleInputChange}
-          type="message"
-          placeholder="message"
-          onBlur={handleLoseFocusMessage}
-        />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
-      </form>
+      <div className='contact-form'>
+        <form className="form">
+          <input
+            className='name-input'
+            value={name}
+            name="name"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="name"
+            onBlur={handleLoseFocusName}
+          />
+          <input
+            className='email-input'
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+            type="email"
+            placeholder="email"
+            onBlur={handleLoseFocusEmail}
+          />
+          <input
+            className='message-input'
+            value={message}
+            name="message"
+            onChange={handleInputChange}
+            type="message"
+            placeholder="message"
+            onBlur={handleLoseFocusMessage}
+          />
+          <button className='submit-btn' type="button" onClick={handleFormSubmit}>Submit</button>
+        </form>
+      </div>
       {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>

@@ -1,10 +1,22 @@
 .form {
-    margin: 20px;
-  }
-  
-  .form input {
-    display: block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    width: 100%;
-  }
+  margin: 20px;
+}
+
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.submit-btn {
+  background-color: #f5edf0;
+  color: #3d2c2e;
+
+}
+
+.message-input .email-input .name-input {
+  background-color: #f5edf0;
+  color: #3d2c2e;
+  width: 50%;
+}

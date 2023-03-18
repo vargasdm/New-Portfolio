@@ -64,3 +64,9 @@ h2 {
     color: #f5edf0 !important;
 }
 
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
