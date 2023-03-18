@@ -53,7 +53,7 @@ export default function Portfolio() {
   return (
     <div>
       <h2>Portfolio</h2>
-      <div>
+      <div className='card-container'>
         <Card projects={projects} />
       </div>
     </div>
