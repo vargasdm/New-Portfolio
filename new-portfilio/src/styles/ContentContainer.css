@@ -58,3 +58,9 @@ h2 {
     color: #f5edf0 !important;
 }
 
+.card-container {
+    display: flex;
+    flex-direction: row;
+    color: #f5edf0 !important;
+}
+

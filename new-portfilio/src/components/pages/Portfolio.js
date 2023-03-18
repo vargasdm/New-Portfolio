@@ -9,13 +9,13 @@ const projects = [
     deployed: 'https://vargasdm.github.io/In-or-Out/',
     repo: 'https://github.com/vargasdm/In-or-Out',
   },
-  // {
-  //   id: 2,
-  //   name: 'Portfolio',
-  //   screenshot: '#',
-  //   deployed: '#',
-  //   repo: 'https://github.com/vargasdm/New-Portfolio',
-  // },
+  {
+    id: 2,
+    name: 'Portfolio',
+    screenshot: 'portfolio',
+    deployed: '#',
+    repo: 'https://github.com/vargasdm/New-Portfolio',
+  },
   {
     id: 3,
     name: 'Text Editor',
