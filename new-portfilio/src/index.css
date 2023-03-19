@@ -12,15 +12,15 @@ code {
     monospace;
 }
 
-.card {
-  flex-direction: row !important;
+/* .card {
+  flex-direction: row !important; */
   /* display: flex;
   height: auto;
   width: auto;
   max-width: 400px;
   max-height: 400px;
   justify-content: space-between; */
-}
+/* } */
 
 /* .card-img-top {
   width: 100%;

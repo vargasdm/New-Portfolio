@@ -4,12 +4,31 @@ import { FaGithub, FaBoxOpen } from "react-icons/fa";
 
 export default function Card(props) {
     const cardStyle = {
-        width: '18rem',
+        card: {
+            display: 'flex',
+            margin: 20,
+            background: '#e8eaf6',
+            justifyContent: 'space-evenly',
+            maxHeight: 400,
+            maxWidth: 400,
+            height: 'auto',
+            width: 'auto'
+        },
+        heading: {
+            background: '#3d2c2e',
+            lineHeight: 3.5,
+            fontSize: '1.2rem',
+            color: '#f5edf0',
+            padding: '0 20px',
+        },
+        content: {
+            padding: 20,
+        },
     };
 
     return (
         <div className="container">
-            <div className="card" style={cardStyle} >
+            <div className="card" style={cardStyle.card} >
                 {props.projects.map(project => (
 
                     <div key={project.id}>
