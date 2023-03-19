@@ -60,4 +60,4 @@ I followed these links and tutorials in the completion of this project:
 
 ## License
 
-ISC license is used for this project.
+No license is used for this project.
