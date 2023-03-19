@@ -2,7 +2,7 @@
 
 ## Description
 
-The motivation for this project was to create a a single-page web application using React. This way the I as a developer can practice using React as well as create an application to use as my portfolio. This way I can show future employers what I have worked on.
+The motivation for this project was to create a a single-page web application using React. This way I, as a developer, can practice using React as well as create an application to use as my portfolio. This way I can show future employers what I have worked on.
 
 During this project I learned: 
 - how to install and React as a way to create single-page web applications
