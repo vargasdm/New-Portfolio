@@ -28,8 +28,8 @@ export default function Card(props) {
 
     return (
         <div className="container">
-            <div className="card" style={cardStyle.card} >
-                {props.projects.map(project => (
+            {props.projects.map(project => (
+                <div className="card" style={cardStyle.card} >
 
                     <div key={project.id}>
                         <img
@@ -43,8 +43,9 @@ export default function Card(props) {
                             <p>GitHub repo: <a href={project.repo} className="card-text"> <FaGithub /></a></p>
                         </div>
                     </div>
-                ))}
-            </div>
+                </div>
+
+            ))}
         </div>
     );
 }

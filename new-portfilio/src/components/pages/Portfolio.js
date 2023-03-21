@@ -11,10 +11,11 @@ const projects = [
   },
   {
     id: 2,
-    name: 'Portfolio',
-    screenshot: 'portfolio',
-    deployed: '#',
-    repo: 'https://github.com/vargasdm/New-Portfolio',
+    name: 'Book Search Engine',
+    screenshot: 'book-search-engine',
+    // this app doesn't have a front-end deployed app
+    deployed: 'https://floating-dusk-47990.herokuapp.com/',
+    repo: 'https://github.com/vargasdm/Book-Search-Engine',
   },
   {
     id: 3,
@@ -25,26 +26,25 @@ const projects = [
   },
   {
     id: 4,
+    name: 'Portfolio',
+    screenshot: 'portfolio',
+    deployed: '#',
+    repo: 'https://github.com/vargasdm/New-Portfolio',
+  },
+  {
+    id: 5,
     name: 'Tech Blog',
     screenshot: 'tech-blog',
     deployed: 'https://guarded-forest-85262.herokuapp.com/',
     repo: 'https://github.com/vargasdm/Tech-Blog',
   },
   {
-    id: 5,
+    id: 6,
     name: 'Employee Tracker',
     screenshot: 'employee-tracker',
     // this app doesn't have a front-end deployed app
     deployed: 'https://github.com/vargasdm/Employee-Tracker',
     repo: 'https://github.com/vargasdm/Employee-Tracker',
-  },
-  {
-    id: 6,
-    name: 'E-commerce Backend',
-    screenshot: 'e-commerce-backend',
-    // this app doesn't have a front-end deployed app
-    deployed: 'https://github.com/vargasdm/E-commerce-Back-End',
-    repo: 'https://github.com/vargasdm/E-commerce-Back-End',
   },
 
 ];
