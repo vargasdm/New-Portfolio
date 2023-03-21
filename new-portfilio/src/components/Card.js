@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaGithub, FaBoxOpen } from "react-icons/fa";
 
-
 export default function Card(props) {
     const cardStyle = {
         card: {
@@ -29,9 +28,8 @@ export default function Card(props) {
     return (
         <div className="container">
             {props.projects.map(project => (
-                <div className="card" style={cardStyle.card} >
-
-                    <div key={project.id}>
+                <div key={project.id} className="card" style={cardStyle.card} >
+                    <div >
                         <img
                             className="card-img-top"
                             src={require(`../assets/images/${project.screenshot}.jpg`)}
