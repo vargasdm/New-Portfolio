@@ -28,7 +28,7 @@ const projects = [
     id: 4,
     name: 'Portfolio',
     screenshot: 'portfolio',
-    deployed: '#',
+    deployed: 'https://vargasdm.github.io/New-Portfolio/',
     repo: 'https://github.com/vargasdm/New-Portfolio',
   },
   {
