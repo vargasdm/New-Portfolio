@@ -4,10 +4,10 @@ import Card from '../Card';
 const projects = [
   {
     id: 1,
-    name: 'In-or-Out',
-    screenshot: 'in-or-out',
-    deployed: 'https://vargasdm.github.io/In-or-Out/',
-    repo: 'https://github.com/vargasdm/In-or-Out',
+    name: 'Score Social',
+    screenshot: 'score-social',
+    deployed: 'https://mighty-cliffs-23244.herokuapp.com/',
+    repo: 'https://github.com/dianavw8/ScoreSocial',
   },
   {
     id: 2,
