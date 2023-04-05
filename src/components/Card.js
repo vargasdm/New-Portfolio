@@ -24,7 +24,7 @@ export default function Card(props) {
             padding: 20,
         },
     };
-
+    
     return (
         <div className="container">
             {props.projects.map(project => (
