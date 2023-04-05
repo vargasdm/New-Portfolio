@@ -43,7 +43,7 @@ const projects = [
   {
     id: 1,
     name: 'Score Social',
-    screenshot: 'score-social',
+    screenshot: 'employee-tracker',
     deployed: 'https://mighty-cliffs-23244.herokuapp.com/',
     repo: 'https://github.com/dianavw8/ScoreSocial',
   },
