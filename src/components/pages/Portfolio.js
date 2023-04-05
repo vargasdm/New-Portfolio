@@ -2,13 +2,7 @@ import React from 'react';
 import Card from '../Card';
 
 const projects = [
-  {
-    id: 1,
-    name: 'Score Social',
-    screenshot: 'score-social',
-    deployed: 'https://mighty-cliffs-23244.herokuapp.com/',
-    repo: 'https://github.com/dianavw8/ScoreSocial',
-  },
+
   {
     id: 2,
     name: 'Book Search Engine',
@@ -45,6 +39,13 @@ const projects = [
     // this app doesn't have a front-end deployed app
     deployed: 'https://github.com/vargasdm/Employee-Tracker',
     repo: 'https://github.com/vargasdm/Employee-Tracker',
+  },
+  {
+    id: 1,
+    name: 'Score Social',
+    screenshot: 'score-social',
+    deployed: 'https://mighty-cliffs-23244.herokuapp.com/',
+    repo: 'https://github.com/dianavw8/ScoreSocial',
   },
 
 ];
