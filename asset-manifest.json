@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/New-Portfolio/static/css/main.2da97169.css",
-    "main.js": "/New-Portfolio/static/js/main.6baa5d35.js",
+    "main.js": "/New-Portfolio/static/js/main.689ad64b.js",
     "static/media/profile-pic.jpg": "/New-Portfolio/static/media/profile-pic.55030ca492b4b91e7539.jpg",
     "static/media/portfolio.jpg": "/New-Portfolio/static/media/portfolio.8bc40a3d56cbc631e5f6.jpg",
-    "static/media/DanielVargas_General_Resume.pdf": "/New-Portfolio/static/media/DanielVargas_General_Resume.b072b6660ce32f035831.pdf",
+    "static/media/DanielVargas_General_Resume.pdf": "/New-Portfolio/static/media/DanielVargas_General_Resume.faa832ce9d1705031904.pdf",
     "static/media/jate.jpg": "/New-Portfolio/static/media/jate.84e76a410b8c61b35766.jpg",
     "static/media/employee-tracker.jpg": "/New-Portfolio/static/media/employee-tracker.71e4d57c81b94028d5c5.jpg",
     "static/media/score-social.jpg": "/New-Portfolio/static/media/score-social.298ac4a1fd4fa8f01238.jpg",
@@ -12,10 +12,10 @@
     "static/media/in-or-out.jpg": "/New-Portfolio/static/media/in-or-out.1e6ae702256639027be2.jpg",
     "index.html": "/New-Portfolio/index.html",
     "main.2da97169.css.map": "/New-Portfolio/static/css/main.2da97169.css.map",
-    "main.6baa5d35.js.map": "/New-Portfolio/static/js/main.6baa5d35.js.map"
+    "main.689ad64b.js.map": "/New-Portfolio/static/js/main.689ad64b.js.map"
   },
   "entrypoints": [
     "static/css/main.2da97169.css",
-    "static/js/main.6baa5d35.js"
+    "static/js/main.689ad64b.js"
   ]
 }
