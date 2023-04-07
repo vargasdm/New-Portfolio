@@ -113,6 +113,7 @@ export default function Contact() {
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
+      <p>This form is still under development, so currently it will not send me anything. You can get in touch anytime by sending me an email at <a href="mailto:ctbarrett.tech@gmail.com" rel="noreferrer" target="_blank" id="email" class="sc-iAKWXU qDJuQ">vargasdm21@gmail.com</a>!</p>
     </div>
   );
 }
