@@ -21,11 +21,11 @@ function AboutMe() {
                 working in a genetic research laboratory at UNC Chapel Hill,
                 where I study the effects of pollutants on the respiratory
                 system. While working I have been working to make the change to
-                Software Development and am currently completing a Full-Stack
+                Software Development and I have completed a Full-Stack
                 Web Development bootcamp At UNC Charlotte where I have been able
                 to develop and practice new skills. I will be a full-stack
                 developer, but my strengths lean more towards back-end design.
-                I'll be graduating in April and am looking forward to my new
+                I graduated in April and am looking forward to my new
                 future career.
               </p>
             </div>
